@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head> <!-- Importing Poppins Font -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RateMyDiningHall</title>
+    <link rel="stylesheet" href="ratemydininghall-home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="searchBar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <nav> <!-- Header Area -->
+          <div id="links">
+            <div id="grouped-links">
+              <a class="active" href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="C:\Users\sanvi\.vscode\ci-102-lab-63-group-01\ratemydininghall-login.html">Login</a>
+              <a href="C:\Users\sanvi\.vscode\ci-102-lab-63-group-01\ratemydininghall-rules.html">Rules</a>
+            </div>
+            <p id="corner-logo">RMDH</p>
+          </div>
+        </nav>
+        <div id="spacer">
+        </div>
+      </header> 
+
+      <!-- Title Area -->
+      <div class="searchspace">     
+        <img src="https://i.imgur.com/tZ5jNuq.png" alt="logo" width="380px" height="60px"/> 
+        <h2 id="title">Enter your school to get started</h2>
+
+        <!-- Search Bar Section -->
+        <form id="searchbar"> 
+          <input type="search" id="query" onkeyup="search_college()" name="q" placeholder="Enter Your School">
+          <script src="searchBar.js"></script>
+        </form> 
+
+        <!-- List of Colleges -->
+        <ul id='list'  style="display: none;">
+          <a href="C:\Users\sanvi\.vscode\ci-102-lab-63-group-01\ratemydininghall-drexel-results.html"><li class="colleges">Drexel University</li></a>
+          <li class="colleges">University of Pennsylvania</li>
+          <li class="colleges">Penn State University</li>
+          <li class="colleges">Temple University</li>
+          <li class="colleges">Thomas Jefferson University</li>
+          <li class="colleges">University of Delaware</li>
+          <li class="colleges">West Chester University</li>
+          <li class="colleges">University of Pittsburgh</li>
+          <li class="colleges">Carnegie Mellon University</li>
+          <li class="colleges">New York University</li>
+          <li class="colleges">Yale University</li>
+        </ul>
+
+      </div>
+      <div id="spacer">
+      </div>
+
+      <!-- Sign Up Area -->
+      <div class="signup-container">
+        <h2 id="signuptitle">Don't have an account? <span id="sign-up-color">Sign Up Now!</span></h2>
+        <h3>Join the Rate My Dining Hall Community</h3>
+        <img src="https://i.imgur.com/lYzFS77.png" alt="logo" width="270px" height="140epx"/> 
+        <button type="button" onclick="location.href='C:\\Users\\sanvi\\.vscode\\ci-102-lab-63-group-01\\ratemydininghall-signup.html'" id="signupbutt">Sign Up</button>
+      </div>
+      <footer>
+        <div class="footer-links">
+          <a href="C:\Users\sanvi\.vscode\ci-102-lab-63-group-01\ratemydininghall-policy.html" target="_blank">Privacy Policy</a>
+        </div>
+        <p id="copy">2024 RateMyDiningHall. All Rights Reserved.</p>
+      </footer>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
