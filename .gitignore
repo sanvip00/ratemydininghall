@@ -1,0 +1,77 @@
+# ----------------------------
+# Secrets / env
+# ----------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ----------------------------
+# Dependencies
+# ----------------------------
+node_modules/
+api/node_modules/
+frontend/node_modules/
+
+# ----------------------------
+# Builds / outputs (common)
+# ----------------------------
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Backend outputs (Node/TS)
+api/dist/
+api/build/
+api/coverage/
+
+# Frontend outputs (React/Vite/Next/etc.)
+frontend/dist/
+frontend/build/
+frontend/out/
+frontend/.next/
+frontend/.nuxt/
+frontend/.vite/
+frontend/.cache/
+
+# ----------------------------
+# Logs
+# ----------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ----------------------------
+# OS / Editor / IDE
+# ----------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# Local tooling / misc
+# ----------------------------
+.cache/
+.tmp/
+temp/
+*.pid
+*.seed
+*.tgz
+
+# ----------------------------
+# Local project notes / artifacts (based on your repo)
+# ----------------------------
+cmds.txt
+Bio*.txt
