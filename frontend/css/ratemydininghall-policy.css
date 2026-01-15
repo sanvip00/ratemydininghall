@@ -1,0 +1,36 @@
+/* Top Bar */
+.top-bar {
+    background-color: #FFBD59;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.heading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#corner-logo {
+    color: #4F83E9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    position: absolute;
+    right: 1rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 1;
+    padding: 0;
+    color: #333;
+    font-size: 0.9rem;
+}

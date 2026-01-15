@@ -1,0 +1,37 @@
+#list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    position: absolute;
+    top: 632px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.253);
+    display: none;
+    width: 760px;
+    
+}
+
+#list.show {
+    display: block;
+}
+
+.colleges {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.colleges:last-child {
+    border-bottom: none;
+    border-radius: 0 0 5px 5px;
+}
+
+.colleges:hover {
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+    background-color: #4D84EB;
+}

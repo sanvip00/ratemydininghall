@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dining Hall - RateMyDiningHall</title>
+
+  <link rel="stylesheet" href="../css/ratemydininghall-rate.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div id="links">
+        <div id="grouped-links">
+          <a href="ratemydininghall-home.html">Home</a>
+          <a href="ratemydininghall-login.html">Login</a>
+          <a href="ratemydininghall-rules.html">Rules</a>
+        </div>
+        <p id="corner-logo">RMDH</p>
+      </div>
+    </nav>
+    <div id="spacer-top"></div>
+  </header>
+
+  <div id="titles">
+    <h1 id="college-name">Dining Hall</h1>
+    <h2 id="college-subtitle">Dining Hall</h2>
+  </div>
+
+  <div class="card">
+    <h3 id="output">Rating: 0/5</h3>
+
+    <!-- rating.js expects data-value attributes -->
+    <span class="star" data-value="1">★</span>
+    <span class="star" data-value="2">★</span>
+    <span class="star" data-value="3">★</span>
+    <span class="star" data-value="4">★</span>
+    <span class="star" data-value="5">★</span>
+
+    <!-- hidden field used by commenting.js -->
+    <input type="hidden" id="ratingValue" value="0">
+  </div>
+
+  <h2 id="comment-title">Comment Section</h2>
+  <hr>
+
+  <div id="comment-form">
+    <form id="reviewForm">
+      <div id="inputs">
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="2" required></textarea>
+      </div>
+      <button type="submit">Submit Review</button>
+    </form>
+  </div>
+
+  <div id="comments">
+    <div id="comment-list"></div>
+  </div>
+
+  <div id="spacer"></div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="ratemydininghall-policy.html" target="_blank">Privacy Policy</a>
+    </div>
+    <p id="copy">2024 RateMyDiningHall. All Rights Reserved.</p>
+  </footer>
+
+  <script src="../js/rating.js"></script>
+  <script src="../js/commenting.js"></script>
+</body>
+</html>
